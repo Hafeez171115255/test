@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.download{
+    text-align: center;
+}
+
+.footer p{
+    color: #cdcfd1;
+    font-size:16px;
+}
+
+.footer a{
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+}
+.footer .social_icon img{
+    float: left;
+    margin-right: 34px;
+}
+.footer h4{
+    font-size: 24px;
+}
+/*test*/
